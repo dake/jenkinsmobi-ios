@@ -101,11 +101,12 @@
     
     NSInputStream* inStream = [NSInputStream inputStreamWithData:data];
     [inStream open];
-    NSString* line = nil;
-    while((line = [CloudBeesWebUtility readLineFromStream:inStream])!=nil){
-        NSString* javascript = [NSString stringWithFormat:@"fetchNext('%@', 1);",line];
-        [htmlConsoleOutput stringByEvaluatingJavaScriptFromString:javascript];
-    }
+        // FIXME: CloudBeesWebUtility
+//    NSString* line = nil;
+//    while((line = [CloudBeesWebUtility readLineFromStream:inStream])!=nil){
+//        NSString* javascript = [NSString stringWithFormat:@"fetchNext('%@', 1);",line];
+//        [htmlConsoleOutput stringByEvaluatingJavaScriptFromString:javascript];
+//    }
     [inStream close];
     
     if(httpGetter!=nil){

@@ -27,6 +27,8 @@
 		B22C2550121295EB0097606C /* computer-x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22C254F121295EB0097606C /* computer-x.png */; };
 		B238E5A61211DF87007E7230 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = B238E5A51211DF87007E7230 /* user.png */; };
 		B238E5B51211E16B007E7230 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = B238E5B41211E16B007E7230 /* red.png */; };
+		B72996DE1C1C0B5200D448D3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B72996DD1C1C0B5200D448D3 /* libz.tbd */; };
+		B72996DF1C1C137300D448D3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B72996DD1C1C0B5200D448D3 /* libz.tbd */; };
 		FC07F99411331BA1008A9710 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC07F99311331BA1008A9710 /* logo.png */; };
 		FC0AE9A613F126C500626216 /* jenkins-mobi-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0AE9A513F126C500626216 /* jenkins-mobi-app-icon.png */; };
 		FC0E89E9120A03C800B88C4D /* HudsonChange.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0E89E8120A03C800B88C4D /* HudsonChange.m */; };
@@ -36,7 +38,6 @@
 		FC0E8A41120A127700B88C4D /* document_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0E8A40120A127700B88C4D /* document_edit.png */; };
 		FC0E8AC4120A23E400B88C4D /* ArtifactViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0E8AC2120A23E400B88C4D /* ArtifactViewerViewController.m */; };
 		FC0E8AC5120A23E400B88C4D /* ArtifactViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0E8AC3120A23E400B88C4D /* ArtifactViewerViewController.xib */; };
-		FC10EF8B138FB6B000F4E1FC /* CloudBeesPhoneActivationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC10EF89138FB6B000F4E1FC /* CloudBeesPhoneActivationView.xib */; };
 		FC10EFA0138FE18300F4E1FC /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10EF95138FE18300F4E1FC /* NSObject+SBJSON.m */; };
 		FC10EFA1138FE18300F4E1FC /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10EF97138FE18300F4E1FC /* NSString+SBJSON.m */; };
 		FC10EFA2138FE18300F4E1FC /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10EF99138FE18300F4E1FC /* SBJSON.m */; };
@@ -44,7 +45,6 @@
 		FC10EFA4138FE18300F4E1FC /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10EF9D138FE18300F4E1FC /* SBJsonParser.m */; };
 		FC10EFA5138FE18300F4E1FC /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC10EF9F138FE18300F4E1FC /* SBJsonWriter.m */; };
 		FC1276261301B1C600D55860 /* MonitorConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1276251301B1C600D55860 /* MonitorConfiguration.m */; };
-		FC14E21F13940A930099C0A0 /* CloudBeesApplicationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC14E21D13940A930099C0A0 /* CloudBeesApplicationListViewController.xib */; };
 		FC26449A112B410B00A3387E /* HudsonInstancesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC264499112B410B00A3387E /* HudsonInstancesTableViewController.m */; };
 		FC26449D112B42ED00A3387E /* ConfigurationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26449C112B42ED00A3387E /* ConfigurationObject.m */; };
 		FC26F27511275011005F8E03 /* hudsonmobi-app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC26F27411275011005F8E03 /* hudsonmobi-app-icon.png */; };
@@ -59,8 +59,6 @@
 		FC2C5A3713C7C4BB00A9D40B /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2C5A2F13C7C4BB00A9D40B /* whiteArrow@2x.png */; };
 		FC2C5A4213C7C78300A9D40B /* AbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2C5A4113C7C78300A9D40B /* AbstractViewController.m */; };
 		FC2CF4BB1394535900E2DB9E /* BigImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CF4BA1394535900E2DB9E /* BigImageTableViewCell.xib */; };
-		FC330777154B4F4A00711196 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC330776154B4F4A00711196 /* libz.dylib */; };
-		FC330778154B565900711196 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC330776154B4F4A00711196 /* libz.dylib */; };
 		FC37D97E10F8B78B000DC5BB /* SimpleHTTPGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC37D97D10F8B78B000DC5BB /* SimpleHTTPGetter.m */; };
 		FC37D99010F8B961000DC5BB /* HudsonProject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC37D98F10F8B961000DC5BB /* HudsonProject.m */; };
 		FC37D99310F8BAEB000DC5BB /* HudsonBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = FC37D99210F8BAEB000DC5BB /* HudsonBuild.m */; };
@@ -206,7 +204,6 @@
 		FCA9D1E0138E633D008D5D05 /* SimpleHTTPGetter2.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA9D1DF138E633D008D5D05 /* SimpleHTTPGetter2.m */; };
 		FCA9D1E2138EA287008D5D05 /* BeesCaptchaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA9D1E1138EA287008D5D05 /* BeesCaptchaCell.xib */; };
 		FCA9D1E7138EA7D6008D5D05 /* BeesTOSAgreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA9D1E6138EA7D6008D5D05 /* BeesTOSAgreeCell.xib */; };
-		FCA9D1EF138ED2A9008D5D05 /* CloudBeesValidateActivateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA9D1ED138ED2A8008D5D05 /* CloudBeesValidateActivateView.xib */; };
 		FCAF27C8121340900074ADB3 /* blue_anime_1.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAF27B8121340900074ADB3 /* blue_anime_1.png */; };
 		FCAF27C9121340900074ADB3 /* blue_anime_2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAF27B9121340900074ADB3 /* blue_anime_2.png */; };
 		FCAF27CA121340900074ADB3 /* blue_anime_3.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAF27BA121340900074ADB3 /* blue_anime_3.png */; };
@@ -298,15 +295,11 @@
 		FCCE312513FBA5F800BFD2E8 /* yellow_anime_2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAF27C5121340900074ADB3 /* yellow_anime_2.png */; };
 		FCCE312613FBA5F800BFD2E8 /* yellow_anime_3.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAF27C6121340900074ADB3 /* yellow_anime_3.png */; };
 		FCCE312713FBA5F800BFD2E8 /* yellow_anime_4.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAF27C7121340900074ADB3 /* yellow_anime_4.png */; };
-		FCCE312813FBA5F800BFD2E8 /* CloudBeesSignupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD322D1138D34AD009728A6 /* CloudBeesSignupController.xib */; };
 		FCCE312913FBA5F800BFD2E8 /* InputTableViewCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD322D4138D411C009728A6 /* InputTableViewCell3.xib */; };
 		FCCE312A13FBA5F800BFD2E8 /* BeesCaptchaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA9D1E1138EA287008D5D05 /* BeesCaptchaCell.xib */; };
 		FCCE312B13FBA5F800BFD2E8 /* BeesTOSAgreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA9D1E6138EA7D6008D5D05 /* BeesTOSAgreeCell.xib */; };
-		FCCE312C13FBA5F800BFD2E8 /* CloudBeesValidateActivateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA9D1ED138ED2A8008D5D05 /* CloudBeesValidateActivateView.xib */; };
 		FCCE312D13FBA5F800BFD2E8 /* GenericHTMLViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB6D364138ED6B8008414C7 /* GenericHTMLViewer.xib */; };
 		FCCE312E13FBA5F800BFD2E8 /* bees_tos.html in Resources */ = {isa = PBXBuildFile; fileRef = FCB6D367138ED853008414C7 /* bees_tos.html */; };
-		FCCE312F13FBA5F800BFD2E8 /* CloudBeesPhoneActivationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC10EF89138FB6B000F4E1FC /* CloudBeesPhoneActivationView.xib */; };
-		FCCE313013FBA5F800BFD2E8 /* CloudBeesApplicationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC14E21D13940A930099C0A0 /* CloudBeesApplicationListViewController.xib */; };
 		FCCE313113FBA5F800BFD2E8 /* BigImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2CF4BA1394535900E2DB9E /* BigImageTableViewCell.xib */; };
 		FCCE313213FBA5F800BFD2E8 /* ChoiceWallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCCCDE9813F29E5D00AFCE0B /* ChoiceWallViewController.xib */; };
 		FCCE313313FBA5F800BFD2E8 /* OnOffTableViewCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB70AAA139E645200D1DBB0 /* OnOffTableViewCell3.xib */; };
@@ -471,7 +464,6 @@
 		FCCFA4CD13FBAEF100E697F9 /* hudsonmobi-app-icon-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCFA4CC13FBAEF100E697F9 /* hudsonmobi-app-icon-hd.png */; };
 		FCCFA4D013FBB5E600E697F9 /* hudsonmobi-logo-only-text.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCFA4CE13FBB5E600E697F9 /* hudsonmobi-logo-only-text.png */; };
 		FCCFA4D113FBB5E600E697F9 /* home-background-hudson.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCFA4CF13FBB5E600E697F9 /* home-background-hudson.png */; };
-		FCD322D3138D34AD009728A6 /* CloudBeesSignupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD322D1138D34AD009728A6 /* CloudBeesSignupController.xib */; };
 		FCD322D5138D411C009728A6 /* InputTableViewCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD322D4138D411C009728A6 /* InputTableViewCell3.xib */; };
 		FCD322D8138D41F0009728A6 /* InputTableViewCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD322D7138D41F0009728A6 /* InputTableViewCell3.m */; };
 		FCD64FFA11064EB500F8B015 /* aborted.gif in Resources */ = {isa = PBXBuildFile; fileRef = FCD64FF911064EB500F8B015 /* aborted.gif */; };
@@ -492,8 +484,6 @@
 		FCFA782D110FB19B009F7DA6 /* HudsonUserList.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA782C110FB19B009F7DA6 /* HudsonUserList.m */; };
 		FCFA7833110FB215009F7DA6 /* UserListXmlDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA7832110FB215009F7DA6 /* UserListXmlDataParser.m */; };
 		FCFA7889110FBCC6009F7DA6 /* QueueItemViewDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA7888110FBCC6009F7DA6 /* QueueItemViewDetail.m */; };
-		FCFC2E321429D847005764CC /* CloudBeesWebUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFC2E301429D847005764CC /* CloudBeesWebUtility.m */; };
-		FCFC2E331429D847005764CC /* CloudBeesWebUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFC2E301429D847005764CC /* CloudBeesWebUtility.m */; };
 		FCFE7CB413F074F90038B585 /* jenkinsmobi-logo-only-text.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFE7CB313F074F90038B585 /* jenkinsmobi-logo-only-text.png */; };
 		FCFF359F13F6D40F00F2A82E /* SimpleReachabiliyChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF359E13F6D40F00F2A82E /* SimpleReachabiliyChecker.m */; };
 		FCFF35A113F6FE7A00F2A82E /* checking_connection.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFF35A013F6FE7A00F2A82E /* checking_connection.png */; };
@@ -523,6 +513,7 @@
 		B22C254F121295EB0097606C /* computer-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "computer-x.png"; sourceTree = "<group>"; };
 		B238E5A51211DF87007E7230 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		B238E5B41211E16B007E7230 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		B72996DD1C1C0B5200D448D3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FC07F99311331BA1008A9710 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FC0AE9A313F125CE00626216 /* jenkins-mobi-app-icon-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jenkins-mobi-app-icon-hd.png"; sourceTree = "<group>"; };
 		FC0AE9A513F126C500626216 /* jenkins-mobi-app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jenkins-mobi-app-icon.png"; sourceTree = "<group>"; };
@@ -538,7 +529,6 @@
 		FC0E8AC1120A23E400B88C4D /* ArtifactViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtifactViewerViewController.h; sourceTree = "<group>"; };
 		FC0E8AC2120A23E400B88C4D /* ArtifactViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtifactViewerViewController.m; sourceTree = "<group>"; };
 		FC0E8AC3120A23E400B88C4D /* ArtifactViewerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtifactViewerViewController.xib; sourceTree = "<group>"; };
-		FC10EF89138FB6B000F4E1FC /* CloudBeesPhoneActivationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloudBeesPhoneActivationView.xib; sourceTree = "<group>"; };
 		FC10EF93138FE18300F4E1FC /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		FC10EF94138FE18300F4E1FC /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		FC10EF95138FE18300F4E1FC /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -554,7 +544,6 @@
 		FC10EF9F138FE18300F4E1FC /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		FC1276241301B1C600D55860 /* MonitorConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorConfiguration.h; sourceTree = "<group>"; };
 		FC1276251301B1C600D55860 /* MonitorConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorConfiguration.m; sourceTree = "<group>"; };
-		FC14E21D13940A930099C0A0 /* CloudBeesApplicationListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloudBeesApplicationListViewController.xib; sourceTree = "<group>"; };
 		FC264498112B410B00A3387E /* HudsonInstancesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HudsonInstancesTableViewController.h; path = Classes/HudsonInstancesTableViewController.h; sourceTree = "<group>"; };
 		FC264499112B410B00A3387E /* HudsonInstancesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HudsonInstancesTableViewController.m; path = Classes/HudsonInstancesTableViewController.m; sourceTree = "<group>"; };
 		FC26449B112B42ED00A3387E /* ConfigurationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationObject.h; sourceTree = "<group>"; };
@@ -573,7 +562,6 @@
 		FC2C5A4013C7C78300A9D40B /* AbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractViewController.h; sourceTree = "<group>"; };
 		FC2C5A4113C7C78300A9D40B /* AbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractViewController.m; sourceTree = "<group>"; };
 		FC2CF4BA1394535900E2DB9E /* BigImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigImageTableViewCell.xib; sourceTree = "<group>"; };
-		FC330776154B4F4A00711196 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		FC37D97B10F8B781000DC5BB /* IWSDataReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWSDataReceiver.h; sourceTree = "<group>"; };
 		FC37D97C10F8B78B000DC5BB /* SimpleHTTPGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHTTPGetter.h; sourceTree = "<group>"; };
 		FC37D97D10F8B78B000DC5BB /* SimpleHTTPGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHTTPGetter.m; sourceTree = "<group>"; };
@@ -779,7 +767,6 @@
 		FCA9D1DF138E633D008D5D05 /* SimpleHTTPGetter2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHTTPGetter2.m; sourceTree = "<group>"; };
 		FCA9D1E1138EA287008D5D05 /* BeesCaptchaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeesCaptchaCell.xib; sourceTree = "<group>"; };
 		FCA9D1E6138EA7D6008D5D05 /* BeesTOSAgreeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeesTOSAgreeCell.xib; sourceTree = "<group>"; };
-		FCA9D1ED138ED2A8008D5D05 /* CloudBeesValidateActivateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloudBeesValidateActivateView.xib; sourceTree = "<group>"; };
 		FCAF27B8121340900074ADB3 /* blue_anime_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_anime_1.png; sourceTree = "<group>"; };
 		FCAF27B9121340900074ADB3 /* blue_anime_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_anime_2.png; sourceTree = "<group>"; };
 		FCAF27BA121340900074ADB3 /* blue_anime_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_anime_3.png; sourceTree = "<group>"; };
@@ -822,12 +809,10 @@
 		FCC9932C13E14A7000E8E2A3 /* views_new_hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = views_new_hd.png; sourceTree = "<group>"; };
 		FCCCDE9813F29E5D00AFCE0B /* ChoiceWallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoiceWallViewController.xib; sourceTree = "<group>"; };
 		FCCE31E913FBA5F800BFD2E8 /* JenkinsMobi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsMobi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCCE31EB13FBA5FA00BFD2E8 /* JenkinsMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "JenkinsMobile-Info.plist"; path = "/Users/simone/ios_development/hudsonmobile/hudsonmobile/JenkinsMobile-Info.plist"; sourceTree = "<absolute>"; };
 		FCCEC1CD1163C9900012D9CC /* HttpStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpStatusCodes.h; sourceTree = "<group>"; };
 		FCCFA4CC13FBAEF100E697F9 /* hudsonmobi-app-icon-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hudsonmobi-app-icon-hd.png"; sourceTree = "<group>"; };
 		FCCFA4CE13FBB5E600E697F9 /* hudsonmobi-logo-only-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hudsonmobi-logo-only-text.png"; sourceTree = "<group>"; };
 		FCCFA4CF13FBB5E600E697F9 /* home-background-hudson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-background-hudson.png"; sourceTree = "<group>"; };
-		FCD322D1138D34AD009728A6 /* CloudBeesSignupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloudBeesSignupController.xib; sourceTree = "<group>"; };
 		FCD322D4138D411C009728A6 /* InputTableViewCell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputTableViewCell3.xib; sourceTree = "<group>"; };
 		FCD322D6138D41F0009728A6 /* InputTableViewCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTableViewCell3.h; sourceTree = "<group>"; };
 		FCD322D7138D41F0009728A6 /* InputTableViewCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTableViewCell3.m; sourceTree = "<group>"; };
@@ -873,7 +858,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC330778154B565900711196 /* libz.dylib in Frameworks */,
+				B72996DF1C1C137300D448D3 /* libz.tbd in Frameworks */,
 				FCA9D1DB138E6250008D5D05 /* MobileCoreServices.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
@@ -890,7 +875,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC330777154B4F4A00711196 /* libz.dylib in Frameworks */,
+				B72996DE1C1C0B5200D448D3 /* libz.tbd in Frameworks */,
 				FCCE31DC13FBA5F800BFD2E8 /* MobileCoreServices.framework in Frameworks */,
 				FCCE31DD13FBA5F800BFD2E8 /* Foundation.framework in Frameworks */,
 				FCCE31DE13FBA5F800BFD2E8 /* UIKit.framework in Frameworks */,
@@ -966,7 +951,6 @@
 				FC4C658F13FC06A100D12398 /* eula.it.txt */,
 				FC4C659013FC06A100D12398 /* eula.en.txt */,
 				8D1107310486CEB800E47090 /* HudsonMobile-Info.plist */,
-				FCCE31EB13FBA5FA00BFD2E8 /* JenkinsMobile-Info.plist */,
 				FC8E50ED13FD491F00C0063B /* legalnotice_hudson.txt */,
 				FC8E50F013FD492E00C0063B /* legalnotice_jenkins.txt */,
 				FC673C1413DA403B004F4653 /* build_output.html */,
@@ -976,11 +960,8 @@
 				FC4C658813FC03AC00D12398 /* EulaViewer.xib */,
 				FC7A8EC413D48DB4008114E5 /* BuildArtifactListViewController.xib */,
 				FCCCDE9813F29E5D00AFCE0B /* ChoiceWallViewController.xib */,
-				FC14E21D13940A930099C0A0 /* CloudBeesApplicationListViewController.xib */,
 				FCB6D364138ED6B8008414C7 /* GenericHTMLViewer.xib */,
-				FCA9D1ED138ED2A8008D5D05 /* CloudBeesValidateActivateView.xib */,
 				FCD322D4138D411C009728A6 /* InputTableViewCell3.xib */,
-				FCD322D1138D34AD009728A6 /* CloudBeesSignupController.xib */,
 				FC0E8AC3120A23E400B88C4D /* ArtifactViewerViewController.xib */,
 				FCB7E0AD112780A800A9C0D4 /* LegalNoticeViewController.xib */,
 				FC619B5B11161074003D1603 /* ProductInfoViewController.xib */,
@@ -995,7 +976,6 @@
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				FCA9D1E1138EA287008D5D05 /* BeesCaptchaCell.xib */,
 				FCA9D1E6138EA7D6008D5D05 /* BeesTOSAgreeCell.xib */,
-				FC10EF89138FB6B000F4E1FC /* CloudBeesPhoneActivationView.xib */,
 				FC2CF4BA1394535900E2DB9E /* BigImageTableViewCell.xib */,
 				FCB70AAA139E645200D1DBB0 /* OnOffTableViewCell3.xib */,
 				FC544EB0139F5ED0002EE73B /* InputTableViewCell4.xib */,
@@ -1008,7 +988,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC330776154B4F4A00711196 /* libz.dylib */,
+				B72996DD1C1C0B5200D448D3 /* libz.tbd */,
 				FCA9D1DA138E6250008D5D05 /* MobileCoreServices.framework */,
 				FC78B4F5114F00F9007BAE6E /* AddressBook.framework */,
 				FC619D771116344D003D1603 /* SystemConfiguration.framework */,
@@ -1472,7 +1452,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "LMIT ltd";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HudsonMobile" */;
@@ -1556,15 +1536,11 @@
 				FCAF27D5121340900074ADB3 /* yellow_anime_2.png in Resources */,
 				FCAF27D6121340900074ADB3 /* yellow_anime_3.png in Resources */,
 				FCAF27D7121340900074ADB3 /* yellow_anime_4.png in Resources */,
-				FCD322D3138D34AD009728A6 /* CloudBeesSignupController.xib in Resources */,
 				FCD322D5138D411C009728A6 /* InputTableViewCell3.xib in Resources */,
 				FCA9D1E2138EA287008D5D05 /* BeesCaptchaCell.xib in Resources */,
 				FCA9D1E7138EA7D6008D5D05 /* BeesTOSAgreeCell.xib in Resources */,
-				FCA9D1EF138ED2A9008D5D05 /* CloudBeesValidateActivateView.xib in Resources */,
 				FCB6D366138ED6B8008414C7 /* GenericHTMLViewer.xib in Resources */,
 				FCB6D368138ED853008414C7 /* bees_tos.html in Resources */,
-				FC10EF8B138FB6B000F4E1FC /* CloudBeesPhoneActivationView.xib in Resources */,
-				FC14E21F13940A930099C0A0 /* CloudBeesApplicationListViewController.xib in Resources */,
 				FC2CF4BB1394535900E2DB9E /* BigImageTableViewCell.xib in Resources */,
 				FCCCDE9713F29E5D00AFCE0B /* ChoiceWallViewController.xib in Resources */,
 				FCB70AAB139E645200D1DBB0 /* OnOffTableViewCell3.xib in Resources */,
@@ -1693,15 +1669,11 @@
 				FCCE312513FBA5F800BFD2E8 /* yellow_anime_2.png in Resources */,
 				FCCE312613FBA5F800BFD2E8 /* yellow_anime_3.png in Resources */,
 				FCCE312713FBA5F800BFD2E8 /* yellow_anime_4.png in Resources */,
-				FCCE312813FBA5F800BFD2E8 /* CloudBeesSignupController.xib in Resources */,
 				FCCE312913FBA5F800BFD2E8 /* InputTableViewCell3.xib in Resources */,
 				FCCE312A13FBA5F800BFD2E8 /* BeesCaptchaCell.xib in Resources */,
 				FCCE312B13FBA5F800BFD2E8 /* BeesTOSAgreeCell.xib in Resources */,
-				FCCE312C13FBA5F800BFD2E8 /* CloudBeesValidateActivateView.xib in Resources */,
 				FCCE312D13FBA5F800BFD2E8 /* GenericHTMLViewer.xib in Resources */,
 				FCCE312E13FBA5F800BFD2E8 /* bees_tos.html in Resources */,
-				FCCE312F13FBA5F800BFD2E8 /* CloudBeesPhoneActivationView.xib in Resources */,
-				FCCE313013FBA5F800BFD2E8 /* CloudBeesApplicationListViewController.xib in Resources */,
 				FCCE313113FBA5F800BFD2E8 /* BigImageTableViewCell.xib in Resources */,
 				FCCE313213FBA5F800BFD2E8 /* ChoiceWallViewController.xib in Resources */,
 				FCCE313313FBA5F800BFD2E8 /* OnOffTableViewCell3.xib in Resources */,
@@ -1883,7 +1855,6 @@
 				FCFF359F13F6D40F00F2A82E /* SimpleReachabiliyChecker.m in Sources */,
 				FC4C658913FC03AC00D12398 /* EulaViewer.m in Sources */,
 				FC7DE189140E8ACA005AF2CB /* Maven2DetailHeaderView.m in Sources */,
-				FCFC2E321429D847005764CC /* CloudBeesWebUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1996,7 +1967,6 @@
 				FCCE31D913FBA5F800BFD2E8 /* SimpleReachabiliyChecker.m in Sources */,
 				FC4C658A13FC03AC00D12398 /* EulaViewer.m in Sources */,
 				FC7DE18A140E8ACA005AF2CB /* Maven2DetailHeaderView.m in Sources */,
-				FCFC2E331429D847005764CC /* CloudBeesWebUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2031,9 +2001,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HudsonMobile_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "HudsonMobile-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lmitsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = HudsonMobi;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -2054,9 +2025,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HudsonMobile_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "HudsonMobile-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lmitsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = HudsonMobi;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -2067,13 +2039,12 @@
 		B2C3728C1155750B00AF1301 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				SDKROOT = iphoneos3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Distribution;
@@ -2091,9 +2062,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HudsonMobile_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "HudsonMobile-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lmitsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = HudsonMobi;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -2104,13 +2076,14 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				SDKROOT = iphoneos3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -2118,13 +2091,12 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				SDKROOT = iphoneos3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -2144,9 +2116,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HudsonMobile_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "JenkinsMobile-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lmitsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = JenkinsMobi;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -2167,9 +2140,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HudsonMobile_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "JenkinsMobile-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lmitsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = JenkinsMobi;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -2190,9 +2164,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HudsonMobile_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "JenkinsMobile-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lmitsoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = JenkinsMobi;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
